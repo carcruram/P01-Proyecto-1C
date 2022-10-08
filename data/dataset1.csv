@@ -1,35 +1,35 @@
-Name;Team;Nationality;Matches;Bat_Runs;Bat_Average;Catches;Debut;;;;;;
-MS Dhoni;CSK;Indian;190;4432;42.2;98;;;;;;;
-Imran Tahir;CSK;South African;55;20;5;13;;;;;;;
-Lungi Ngidi;CSK;South African;7;0;-;1;;;;;;;
-Shane Watson;CSK;Australian;134;3575;31.08;38;;;;;;;
-Ambati Rayudu;CSK;Indian;147;3300;28.69;53;;;;;;;
-Murali Vijay;CSK;Indian;103;2587;26.39;47;;;;;;;
-Kedar Jadhav;CSK;Indian;79;1079;22.95;27;;;;;;;
-Ravindra Jadeja;CSK;Indian;170;1927;24.08;63;;;;;;;
-Deepak Chahar;CSK;Indian;34;71;11.83;4;;;;;;;
-Piyush Chawla;CSK;Indian;157;584;11.91;40;;;;;;;
-Mitchell Santner;CSK;New Zealander;4;32;32;1;;;;;;;
-KM Asif;CSK;Indian;2;0;-;0;;;;;;;
-Shardul Thakur;CSK;Indian;36;36;7.2;13;;;;;;;
-Faf du Plessis;CSK;South African;71;1853;31.4;42;;;;;;;
-Dwayne Bravo;CSK;West Indian;134;1483;23.17;74;;;;;;;
-Sam Curran;CSK;English;9;95;23.75;2;;;;;;;
-Karn Sharma;CSK;Indian;62;316;15.8;14;;;;;;;
-Shreyas Iyer (c);DC;Indian;62;1681;30.56;22;;;;;;;
-Kagiso Rabada;DC;South African;18;69;11.5;6;;;;;;;
-Marcus Stoinis;DC;Australian;29;473;31.53;7;;;;;;;
-Sandeep Lamichhane;DC;Nepalese;9;0;0;2;;;;;;;
-Ishant Sharma;DC;Indian;89;55;9.16;17;;;;;;;
-Ajinkya Rahane;DC;Indian;140;3820;32.93;55;;;;;;;
-Ravichandran Ashwin;DC;Indian;139;375;10.71;32;;;;;;;
-Shikhar Dhawan;DC;Indian;159;4579;33.42;69;;;;;;;
-Shimron Hetmyer;DC;West Indian;5;90;18;3;;;;;;;
-Mohit Sharma;DC;Indian;85;122;8.13;18;;;;;;;
-Prithvi Shaw;DC;Indian;25;598;23.92;6;;;;;;;
-Avesh Khan;DC;Indian;8;4;-;4;;;;;;;
-Axar Patel;DC;Indian;82;796;18.95;34;;;;;;;
-Rishabh Pant;DC;Indian;54;1736;36.16;33;;;;;;;
-Harshal Patel;DC;Indian;43;107;9.72;11;;;;;;;
-Keemo Paul;DC;West Indian;8;18;3.6;5;;;;;;;
-Amit Mishra;DC;Indian;147;362;11.67;22;;;;;;;
+Name;Team;Nationality;Matches;Bat_Runs;Bat_Average;Catches;Debut
+MS Dhoni;CSK;Indian;190;4432;42.2;98
+Imran Tahir;CSK;South African;55;20;5;13
+Lungi Ngidi;CSK;South African;7;0;0.8;1
+Shane Watson;CSK;Australian;134;3575;31.08;38
+Ambati Rayudu;CSK;Indian;147;3300;28.69;53
+Murali Vijay;CSK;Indian;103;2587;26.39;47
+Kedar Jadhav;CSK;Indian;79;1079;22.95;27
+Ravindra Jadeja;CSK;Indian;170;1927;24.08;63
+Deepak Chahar;CSK;Indian;34;71;11.83;4
+Piyush Chawla;CSK;Indian;157;584;11.91;40
+Mitchell Santner;CSK;New Zealander;4;32;32;1
+KM Asif;CSK;Indian;2;0;0.7;0
+Shardul Thakur;CSK;Indian;36;36;7.2;13
+Faf du Plessis;CSK;South African;71;1853;31.4;42
+Dwayne Bravo;CSK;West Indian;134;1483;23.17;74
+Sam Curran;CSK;English;9;95;23.75;2
+Karn Sharma;CSK;Indian;62;316;15.8;14
+Shreyas Iyer;DC;Indian;62;1681;30.56;22
+Kagiso Rabada;DC;South African;18;69;11.5;6
+Marcus Stoinis;DC;Australian;29;473;31.53;7
+Sandeep Lamichhane;DC;Nepalese;9;0;0;2
+Ishant Sharma;DC;Indian;89;55;9.16;17
+Ajinkya Rahane;DC;Indian;140;3820;32.93;55
+Ravichandran Ashwin;DC;Indian;139;375;10.71;32
+Shikhar Dhawan;DC;Indian;159;4579;33.42;69
+Shimron Hetmyer;DC;West Indian;5;90;18;3
+Mohit Sharma;DC;Indian;85;122;8.13;18
+Prithvi Shaw;DC;Indian;25;598;23.92;6
+Avesh Khan;DC;Indian;8;4;0.9;4
+Axar Patel;DC;Indian;82;796;18.95;34
+Rishabh Pant;DC;Indian;54;1736;36.16;33
+Harshal Patel;DC;Indian;43;107;9.72;11
+Keemo Paul;DC;West Indian;8;18;3.6;5
+Amit Mishra;DC;Indian;147;362;11.67;22

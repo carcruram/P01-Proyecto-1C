@@ -1,38 +1,38 @@
 from collections import namedtuple
 import csv
-import datetime
+from datetime import datetime
+#Función para leer formato fecha y hora
+def parse_date(cadena, formato = "%d/%m/%Y"):
+    return datetime.strptime(cadena, formato).date()
 
-cricket = namedtuple("cricket", "Name, Team, Nationality, Matches, Bat_Runs, Bat_Average, Catches, Debut")
+def parse_time(cadena, formato = '%H:%M:%S'):
+    return datetime.strptime(cadena, formato).time()
 
-def lee_csv (ruta): 
-    ''' Lee el fichero de entrada y devuelve una lista de audiencias
-    
-    ENTRADA: 
-       - fichero: nombre del fichero -> str
-    SALIDA: 
-       - lista de audiencias -> [(int, float)] 
+def parse_datetime(cadena, formato = '%d/%m/%Y-%H:%M:%S'):
+    return datetime.strptime(cadena, formato)
+#Función para leer formato booleano
+def parse_bool(cadena):
+    if cadena == 'CSK':
+        booleano = True
+    else:
+        booleano = False
+    return booleano
 
-    Cada línea del fichero se corresponde con la audiencia de un programa,
-    y se representa con una tupla con los siguientes valores:
-        - edición
-        - audiencia
-    Hay que transformar la entrada (cadenas de caracteres) en valores numéricos
-    para que puedan ser procesados posteriormente.
-    '''
+cricket = namedtuple("cricket", "Name, Team, Nationality, Matches, Bat_Runs, Bat_Average, Catches")
+
+def lee_csv(dataset1):
     datos = []    
-    with open(cricket, encoding='utf-8') as f:
+    with open(dataset1, encoding='utf-8') as f:
         lector = csv.reader(f, delimiter = ';')
         next(lector)
-        for Name, Team, Nationality, Matches, Bat_Runs, Bat_Average, Catches, Debut in f:
-            Name = str(Name)
-            Team = bool(Team)
+        for Name, Team, Nationality, Matches, Bat_Runs, Bat_Average, Catches in lector:
+            Team = parse_bool(Team)
             Matches = int(Matches)
             Bat_Runs = int(Bat_Runs)
             Bat_Average = float(Bat_Average)
             Catches = int(Catches)
-            Debut = datetime.strptime(Debut)
-            tupla = cricket(Name,Team,Nationality,Matches,Bat_Runs,Bat_Average,Catches,Debut)
+            tupla = cricket(Name, Team, Nationality, Matches, Bat_Runs, Bat_Average, Catches)
             datos.append(tupla)
         return(datos)
-cricket = lee_csv('./data/dataset1.csv')
-print(cricket[:5])
+datos = lee_csv("./data/dataset1.csv")
+print(datos[:3])
